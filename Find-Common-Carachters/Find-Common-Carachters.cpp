@@ -6,7 +6,7 @@ void Find_Common_Characters(const char* Words[], int Number_Of_Words);
 
 int main()
 {
-    const char* Words[] = { "bella", "label", "roller" };
+    const char* Words[] = { "apple", "peach", "grape" };
     int Number_Of_Words = sizeof(Words) / sizeof(Words[0]);
 
     Find_Common_Characters(Words, Number_Of_Words);
